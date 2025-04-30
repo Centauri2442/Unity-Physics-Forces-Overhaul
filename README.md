@@ -81,7 +81,7 @@ Currently the ForceField has 2 inheritors:
 ![image](https://github.com/user-attachments/assets/dd9ac314-b7c5-4157-9f41-4bf88f590d6e)
 
 # Performance Notes
-- Due to how ForceJob queuing works, it is more performant to queue a large amount of positions at once in a single array rather than a large amount of smaller areas. This is due to the GC allocations when creating a job.
+- Due to how ForceJob queuing works, it is more performant to queue a large amount of positions at once in a single array rather than a large amount of smaller areas. This is due to the GC allocations when creating a job. The performance hit is minimal, but can be noticeable at high load.
 
 # Future Feature-List
 - Dynamic drag based on mesh orientation and surface area
@@ -92,6 +92,7 @@ Currently the ForceField has 2 inheritors:
 - Water ForceFields
   - Buoyancy using accurate mesh volume calculations
   - River Splines
+- Overhaul job creation code to decrease amount of GC allocations at high load.
 
 # License Notice
 
