@@ -183,8 +183,9 @@ namespace Magnet.Physics
             {
                 if (Tools.current != Tool.None || !script.gameObject.activeInHierarchy) // If transform handle is visible again or gameobject is disabled
                 {
-                    centerHandleVisibleProperty.boolValue = false;
-                    serializedObject.ApplyModifiedProperties();
+                    PullFromScript();
+                    script.ShowCenterHandle = false;
+                    PushToScript();
                 }
                 else
                 {
