@@ -13,9 +13,9 @@ The system also expands on physics interactivity:
 
 # Performance Showcase
 
-### Pixel 9
+### Mobile - Pixel 9
 [![Force System Demo - Pixel 9](http://img.youtube.com/vi/kkWScN1fyQ0/0.jpg)](http://www.youtube.com/watch?v=kkWScN1fyQ0 "Force System Demo - Pixel 9")
-### Windows
+### Windows - AMD Ryzen 5950X
 [![Force System Demo - Windows](http://img.youtube.com/vi/v5dI8HUqKeM/0.jpg)](http://www.youtube.com/watch?v=v5dI8HUqKeM "Force System Demo - Windows")
 
 # How it works
