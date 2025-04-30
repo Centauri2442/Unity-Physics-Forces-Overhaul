@@ -13,6 +13,9 @@ The system also expands on physics interactivity:
 
 # Performance Showcase
 
+### Downloadable Demos
+Demo builds can be found [HERE](https://github.com/Centauri2442/Unity-Physics-Forces-Overhaul/releases/tag/release)
+
 ### Mobile - Pixel 9
 [![Force System Demo - Pixel 9](http://img.youtube.com/vi/kkWScN1fyQ0/0.jpg)](http://www.youtube.com/watch?v=kkWScN1fyQ0 "Force System Demo - Pixel 9")
 ### Windows - AMD Ryzen 5950X
