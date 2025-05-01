@@ -2,7 +2,7 @@
 In-development for use in an unannounced game, this system optimizes force calculations at scale for things like wind and river simulations.
 
 # Overview
-In Unity, rigidbody mass distribution is unifrom across the entire object, assuming all attached colliders contribute evenly to the total mass. While this works fine in most situations, it can break down when trying to do more complex simulations, especially when cpu frametime is needed to be kept low (Thus limiting the usage of joint based approaches).
+In Unity, rigidbody mass distribution is uniform across the entire object, assuming all attached colliders contribute evenly to the total mass. While this works fine in most situations, it can break down when trying to do more complex simulations, especially when cpu frametime is needed to be kept low (Thus limiting the usage of joint based approaches).
 
 The Physics Forces Overhaul system attempts to performantly solve this limitation, allowing more complex physics interactions and also allowing different parts of an object to contain different mass density. For example, a hammer could be simulated with a wooden handle and steel head, with much more accurate simulated movement when force is applied. 
 
