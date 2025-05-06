@@ -1,6 +1,10 @@
 # Unity Physics Forces Overhaul
 In-development for use in an unannounced game, this system optimizes force calculations at scale for things like wind and river simulations.
 
+# License Notice
+
+2025 CentauriCore LLC, 2025 Yewnyx Studios, 2025 CASCAS! LLC, All rights reserved.
+
 # Overview
 In Unity, rigidbody mass distribution is uniform across the entire object, assuming all attached colliders contribute evenly to the total mass. While this works fine in most situations, it can break down when trying to do more complex simulations, especially when cpu frametime is needed to be kept low (Thus limiting the usage of joint based approaches).
 
@@ -99,7 +103,3 @@ Currently the ForceField has 2 inheritors:
 - Overhaul job creation code to decrease amount of GC allocations at high load.
   - Decrease Vector3 array allocations
   - Improve handling of collider bounds, handling more setup inside the job instead of on the main thread
-
-# License Notice
-
-2025 CentauriCore LLC, 2025 Yewnyx Studios, 2025 CASCAS! LLC, All rights reserved.
