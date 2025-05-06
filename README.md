@@ -90,13 +90,15 @@ Currently the ForceField has 2 inheritors:
 # Future Feature-List
 - Dynamic drag based on mesh orientation and surface area
 - ForceInteractor overhaul
-  - Replace ObjectForcePoints with ForceVolumes, which would allow elements of the object to be more easily assigned a density/mass percentage.
+  - Replace ObjectForcePoints with ForceVolumes, which would allow elements of the object to be more easily assigned a density/mass percentage. Would also allow easier assignment of material densities to a whole chunk of the object.
 - Force Modifiers
   - Allows ForceFields and ForceInteractors to have overrides and tweaks able to be added/removed during runtime
 - Water ForceFields
   - Buoyancy using accurate mesh volume calculations
   - River Splines
 - Overhaul job creation code to decrease amount of GC allocations at high load.
+  - Decrease Vector3 array allocations
+  - Improve handling of collider bounds, handling more setup inside the job instead of on the main thread
 
 # License Notice
 
